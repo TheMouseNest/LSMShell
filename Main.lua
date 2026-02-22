@@ -4,7 +4,7 @@ local LSM = LibStub("LibSharedMedia-3.0")
 # EXAMPLES:
   ## Highlight texture
   LSM:Register("platynator/sizedtexture", "Your name", {
-    file = "Interface/AddOns/LSMShell/Assets/testing.png" -- asset location
+    file = "Interface/AddOns/LSMShell/Assets/testing.png", -- asset location
     width = 15.625, -- Not required to be this value, but 15.625 is the default bar height
     height = 125, -- Not required to be this value, but 125 is the default bar width
   })
