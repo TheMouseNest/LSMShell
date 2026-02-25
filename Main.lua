@@ -16,7 +16,7 @@ local LSM = LibStub("LibSharedMedia-3.0")
   LSM:Register("nineslice", "Your nineslice name", {
     file = "Interface/AddOns/LSMShell/Assets/testing.png", -- Location of asset
     previewHeight = 10, -- height/width used for aspect ratio of preview
-    preivewWidth = 10,
+    previewWidth = 10,
     padding = {left = 2, right = 2, top = 2, bottom = 2}, -- Padding (expanded area the texture should cover to make sure the nineslice wraps around the object properly
     margins = {left = 15, right = 15, top = 15, bottom = 15}, -- SetTextureSliceMargins parameters
     scaleModifier = 0.35, -- Scale factor to apply to the texture to modify the border width without having a tiny/large texture
